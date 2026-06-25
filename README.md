@@ -12,7 +12,7 @@ An end-to-end Machine Learning project structured into separate, modular workflo
   * **Tenure Months Distribution**: Highlighted high density at both ends (under 5 months and near 72 months). *Insight: The first year is the high-risk danger zone for customer turnover.*
   * **Contract Type vs Churn Count**: Proved that month-to-month contracts account for almost all churn (~42.7%), while two-year contracts are extremely stable (under 3% churn).
   * **Tech Support Impact**: Found that subscribers without Tech Support have an aggressively higher likelihood of leaving the company.
-  * **Price Sensitivity**: Boxplots revealed that churned customers have a higher median monthly cost (~$80) than retained customers (~$65).
+  * **Price Sensitivity**: Boxplots revealed that churned customers have a higher median monthly cost (around $80) than retained customers (around $65).
 
 ### 2️) notebooks/02_data_cleaning.ipynb (Data Wrangling)
 * **What Was Done**: Addressed a critical data type anomaly where Total Charges was read as text because of empty string characters left by new clients with zero tenure. Dropped metadata fields and variables that cause target data leakage. Converted categoricals into numerical values.
